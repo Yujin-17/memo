@@ -16,16 +16,17 @@
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
-	<div class="wrap">
-		<header class="bg-dark">
+	<div id="wrap">
+		<header>
 			<jsp:include page="../include/gnb.jsp" />
 		</header>
-		<section class="contents">
+		<section>
 			<jsp:include page="../${viewName}.jsp" />
 		</section>
-		<footer class="bg-dark">
-			<jsp:include page="../include/footer.jsp" />
+		<footer>
+			<jsp:include page="../include/footer.jsp" />	
 		</footer>
 	</div>
+	
 </body>
 </html>
